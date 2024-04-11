@@ -1,0 +1,2 @@
+api_key = "YOUR_API_KEY"
+org_id = 123456 # YOUR ORGANIZATION ID
