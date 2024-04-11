@@ -10,3 +10,5 @@ How to Use:
 4. Run the script with `python main.py`
 
 The script will then iterate through all networks in your organization and produce a CSV file of name `{org_id}_air_marshal_audit.csv`.
+
+If you need a good resource to automatically re-run this tool, [this article](https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e) offers a good tutorial to schedule python scripts with Cron. In this case, probably the best use case for the script is delaying by a specific number of days using `delay_days` instead of a specific date with `delay_specific_date`
